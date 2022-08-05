@@ -1,0 +1,1626 @@
+body {
+  background: #fafafa;
+}
+
+.dropdown-contents {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 100px;
+  overflow: hidden;
+  box-shadow: 0px 8px 16px 0px rgba (0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 100px;
+  overflow: hidden;
+  box-shadow: 0px 8px 16px 0px rgba (0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  font-size: .7rem;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #fff;
+}
+
+.show {
+  display: block;
+}
+
+.modale {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: visible;
+  overflow-y: 2;
+  background-color: rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0, 0.4);
+}
+
+.modale-content div img {
+  width: 50px;
+}
+
+.modale-content form input {
+  margin-top: .8em;
+  margin-bottom: .8em;
+}
+
+.modale-content form button {
+  background: none;
+  cursor: pointer;
+  font-size: .8rem;
+  font-family: 'Nexa-Light';
+  font-weight: 800;
+  color: #c83200;
+  padding: 1em;
+  outline: none;
+  border: 1px solid #c83200;
+}
+
+.modale-content form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.modale-content .close {
+  color: crimson;
+}
+
+.modale-content .spie p {
+  color: #fff;
+  text-align: center;
+  font-size: .7rem;
+}
+
+.modale-content .spie div {
+  background: #000080;
+  height: 150px;
+  width: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.modale-content .spie {
+  padding: 2em;
+  height: 200px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 5px;
+  border: 2px #888 dotted;
+}
+
+.modale-content {
+  font-family: 'Nexa-Bold';
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 100%;
+  border-radius: 15px;
+  font-size: .60rem;
+}
+
+.modal {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  overflow-y: 2;
+  background-color: rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  font-family: 'Nexa-Bold';
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 100%;
+  height: 470px;
+  font-size: .60rem;
+}
+
+.modal-content ::placeholder {
+  font-size: .60rem;
+}
+
+.modal-content form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modal-content .spi .indigo {
+  width: 50%;
+  display: block;
+  align-items: center;
+}
+
+.modal-content .spi {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 5em;
+  width: 100%;
+}
+
+.modal-content .pop select {
+  outline: none;
+  border: 1px solid #aaaaaa;
+  border-radius: 8px;
+  font-family: 'Nexa-Light';
+  font-size: .7rem;
+  padding: .6em;
+  width: max-content;
+  background: none;
+}
+
+.modal-content .pop button {
+  border: none;
+  background: #c83200;
+  color: #fff;
+  font-family: 'Nexa-Light';
+  font-size: .7rem;
+  padding: .3rem;
+  border-radius: 10px;
+}
+
+.modal-content .pop {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: right;
+  flex-direction: column;
+}
+
+.modal-content .spike {
+  padding: 5em;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 5px;
+  border: 2px #888 dotted;
+}
+
+.modal-content .spike p {
+  width: max-content;
+  font-size: .8rem;
+  font-family: 'Nexa-Light';
+}
+
+.modal-content div img {
+  width: 50px;
+}
+
+.close {
+  color: #aaaaaa;
+  /* text-align: right; */
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.d-flex {
+  align-items: center;
+  flex-direction: column;
+}
+
+.container .d-flex i {
+  color: #c83200;
+}
+
+.container .d-flex img {
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 1em;
+}
+
+/* style for the switch toogle */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 52px;
+  height: 28px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider::before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+/* this is active when the toggle is true */
+input:checked+.slider {
+  background-color: #c83200;
+}
+
+input:focus+.slider {
+  box-shadow: 0 0 1px #c83200;
+}
+
+input:checked+.slider::before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round::before {
+  border-radius: 50%;
+}
+
+@font-face {
+  font-family: "Nexa-Light";
+  src: url(../fonts/Commercial/Nexa2/OTF/Nexa-Light.otf);
+}
+
+@font-face {
+  font-family: "Nexa-Bold";
+  src: url(../fonts/Commercial/Nexa2/OTF/Nexa-Bold.otf);
+}
+
+.row {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.contain {
+  padding: 0.8em;
+}
+
+.contain span {
+  font-family: 'Nexa-Bold';
+}
+
+.row hr {
+  width: 100%;
+}
+
+.row .text-align {
+  font-weight: 700;
+  font-family: 'Nexa-Light';
+  text-align: left;
+  width: 50%;
+}
+
+.row .trep {
+  font-family: 'Nexa-Light';
+  display: flex;
+  width: 20%;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.row .trep span {
+  font-size: .80em;
+}
+
+.row .tren {
+  display: flex;
+  width: 10%;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.row .tre {
+  margin-left: 2em;
+  font-family: 'Nexa-Bold';
+  display: flex;
+  flex-shrink: 0;
+  width: 55%;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.row .tre p {
+  color: #000;
+  font-family: 'Nexa-Light';
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.row .icon a {
+  color: #c83200;
+}
+
+.row .push-right {
+  margin-left: 0;
+  display: flex;
+  width: 50%;
+  justify-content: flex-end;
+}
+
+.row img {
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+}
+
+.row .active {
+  border: 2px #000080 solid;
+}
+
+.row .push-right img {
+  width: 50px;
+}
+
+.row a span {
+  color: #fff;
+  font-family: 'Nexa-Bold';
+  position: relative;
+  left: -0.95rem;
+  top: -1rem;
+  right: -0;
+  background: #000080;
+  padding: .3em;
+  font-size: .70rem;
+  border-radius: 5px;
+}
+
+.row .push-right .ion {
+  border-radius: 50px;
+  background: #c83200;
+  stroke: #fff;
+}
+
+.container h4 {
+  text-align: left;
+  width: max-content;
+  font-family: 'Nexa-Bold';
+  font-weight: 500;
+  font-size: 1rem;
+  margin-bottom: 1em;
+
+}
+
+.toggle {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2em;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.container {
+  margin-bottom: 4em;
+  width: 100%;
+  padding: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.container .tran {
+  display: flex;
+  flex-direction: column;
+}
+
+.container .tran .pood a {
+  color: #c83200;
+  text-decoration: underline;
+}
+.container .flex .indigo{
+  background: #000080;
+  color: #eedfe1;
+  padding: .4em;
+  width: 30%;
+  text-align: center;
+  border-radius: 5px;
+  margin-right: .5em;
+}
+.container .flex .bre{
+  background: #f76331;
+  color: #eedfe1;
+  padding: .4em;
+  width: 30%;
+  text-align: center;
+  border-radius: 5px;
+  margin-right: .5em;
+}
+.container .flex .rim{
+  background: #c83200;
+  color: #eedfe1;
+  padding: .4em;
+  width: 30%;
+  text-align: center;
+  border-radius: 5px;
+  margin-right: .5em;
+}
+.container .flex .trim{
+  background: #0b73af;
+  color: #eedfe1;
+  padding: .4em;
+  width: 30%;
+  text-align: center;
+  border-radius: 5px;
+  margin-right: .5em;
+}
+.container .tip{
+  font-family: 'Nexa-Light';
+  font-weight: 800;
+  color: #000;
+  font-size: .9rem;
+}
+.container .flex .hig{
+  font-size: .8rem;
+  font-family: 'Nexa-Bold';
+}
+.container .flex{
+  padding: 3%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Nexa-Bold';
+  color: #000;
+  justify-content: flex-start;
+  align-items: center;
+}
+.container .tran .pood {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.container .tran .pood .init {
+  align-items: center;
+  padding: 10px;
+  background: #f5f5f8;
+  margin: .6em;
+  border-radius: 1em;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.container .tran .pood p {
+  font-size: .7rem;
+   width: max-content;
+}
+
+.container .tran .pood img {
+  border-radius: 50%;
+  width: 15%;
+}
+
+.container .tran .pood span {
+  color: #000;
+  font-family: 'Nexa-bold';
+}
+
+.container .ghy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container .tran .t1 {
+  margin-bottom: 1em;
+  background: #f8e5ec;
+  border-radius: 10px;
+  padding: 3%;
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container .tran .t1 h2 {
+  font-size: 1.6rem;
+  font-family: 'Nexa-Bold';
+}
+
+.container .tran .t2 h2 {
+  font-size: 1.6rem;
+  font-family: 'Nexa-Bold';
+}
+
+.container .tran .t3 h2 {
+  font-size: 1.6rem;
+  font-family: 'Nexa-Bold';
+}
+.container .tran .t1 h4 {
+  font-size: .8rem;
+  font-family: 'Nexa-Bold';
+}
+.container .tran .t2 h4 {
+  font-size: .8rem;
+  font-family: 'Nexa-Bold';
+}
+.container .tran .t3 h4 {
+  font-size: .8rem;
+  font-family: 'Nexa-Bold';
+}
+.container .tran .t1 h6 {
+  font-weight: 600;
+  font-size: .8rem;
+  font-family: 'Nexa-Light';
+  text-align: center;
+}
+
+.container .tran .t2 h6 {
+  font-weight: 600;
+  font-size: .8rem;
+  font-family: 'Nexa-Light';
+  text-align: center;
+}
+
+.container .tran .t3 h6 {
+  font-weight: 600;
+  font-size: .8rem;
+  font-family: 'Nexa-Light';
+  text-align: center;
+}
+
+.container .tran .t2 {
+  width: 50%;
+  margin-bottom: 1em;
+  display: flex;
+  background: #e5e8f8;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  padding: 3%;
+}
+
+.container .tran .t3 {
+  width: 50%;
+  background: #d9edf3;
+  border-radius: 10px;
+  padding: 3%;
+  margin-bottom: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container .tran p {
+  text-decoration: none;
+  color: #000;
+}
+
+.container p {
+  color: #c83200;
+  text-align: right;
+  font-size: .80rem;
+  margin-right: 6em;
+  font-family: 'Nexa-Bold';
+  text-decoration: underline;
+}
+
+.toggle p {
+  color: #c83200;
+  text-align: right;
+  font-size: .80rem;
+  margin-right: 6em;
+  font-family: 'Nexa-Bold';
+  text-decoration: underline;
+}
+
+.container .tur h4 {
+  font-family: 'Nexa-Light';
+  font-weight: 900;
+}
+
+.container .tur {
+  font-family: 'Nexa-Light';
+}
+
+.container .tur button {
+  background: none;
+  outline: none;
+  cursor: pointer;
+  font-size: .9rem;
+  font-family: 'Nexa-Light';
+  font-weight: 800;
+  color: #c83200;
+  width: 30%;
+  padding: .3em;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  border: 1px solid #c83200;
+}
+
+.container .tur input {
+  font-family: 'Nexa-Light';
+  margin-right: .8em;
+}
+
+.container .tur a {
+  font-family: 'Nexa-Light';
+  font-weight: 900;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-size: .9rem;
+  color: #c83200;
+  text-decoration: underline;
+}
+
+.toggle .tag {
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  border-radius: 10px;
+  font-family: 'Nexa-Bold';
+  font-size: .80rem;
+  width: max-content;
+  text-align: center;
+  padding: 0.1em;
+  background: #c83200;
+}
+
+.container .kala {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 1em;
+}
+
+.container .kala h3 {
+  font-family: 'Nexa-Bold';
+  margin-right: 1em;
+}
+
+.container .kala img {
+  width: 50px;
+}
+
+.container .row .tag img {
+  width: 30%;
+  height: 25px;
+}
+
+.toggle .push {
+  display: flex;
+  width: 50%;
+  justify-content: flex-end;
+}
+
+.toggle .push a {
+  border-radius: 5px;
+  outline: none;
+  background: #e29277;
+  font-size: .60rem;
+  width: max-content;
+  text-align: center;
+  padding: .5rem;
+  font-family: 'Nexa-Bold';
+  color: #c83200;
+}
+
+.toggle .push a i {
+  font-size: 1rem;
+  padding-right: .5em;
+}
+
+.op {
+  display: flex;
+  flex-direction: column;
+  margin: 0.3em;
+  align-items: center;
+}
+
+.op img {
+  width: 110px;
+  border-radius: 10px;
+  height: 100px;
+  margin-bottom: .3em;
+  object-fit: cover;
+}
+
+.opr {
+  display: flex;
+  flex-direction: column;
+  margin: 2em;
+  padding: 0em 1em 0em 1em;
+  width: 100%;
+  align-items: center;
+}
+
+.tyr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #ffe1e1;
+  width: 100%;
+  height: max-content;
+  margin-bottom: 5em;
+  padding: .50em;
+  border-radius: 10px;
+}
+
+.tyr button {
+  background: none;
+  cursor: pointer;
+  font-size: .8rem;
+  font-family: 'Nexa-Light';
+  font-weight: 800;
+  color: #c83200;
+  padding: 1em;
+  outline: none;
+  width: 50%;
+  border: 1px solid #c83200;
+}
+
+.opr div {
+  font-family: 'Nexa-Bold';
+  color: #c83200;
+  text-align: left;
+  padding: .30em;
+  font-size: .60rem;
+  margin: .5em;
+}
+
+.opr .pro {
+  background: #fff;
+  margin: .4em;
+  width: 100%;
+  border-radius: 30px;
+}
+
+.opr .pro input {
+  width: 60%;
+  border: none;
+  outline: none;
+  background: none;
+  font-family: 'Nexa-Bold';
+}
+
+.opr .pro a {
+  width: max-content;
+  font-size: .9rem;
+  stroke: #c83200;
+  margin-left: 1em;
+  cursor: pointer;
+}
+.container .col-md-12{
+margin-bottom: 1em;
+}
+.opr .dd {
+  background: #fff;
+  margin: .5em;
+  width: 100%;
+  border-radius: 30px;
+}
+.opr .dd select {
+  border: none;
+  outline: none;
+  background: none;
+  color: #c83200;
+}
+.opr .dd input {
+  width: 60%;
+  border: none;
+  outline: none;
+  background: none;
+  font-family: 'Nexa-Bold';
+}
+
+.opr .dd input ::placeholder {
+  font-family: 'Nexa-Bold';
+}
+
+.opr .dd a {
+  font-size: .9rem;
+  width: max-content;
+  stroke: #c83200;
+  margin-left: 1em;
+  cursor: pointer;
+}
+
+.oph div {
+  font-family: 'Nexa-Bold';
+  color: #c83200;
+  text-align: left;
+  padding: .30em;
+  font-size: .60rem;
+  margin-top: .6em;
+  margin-bottom: .6em;
+}
+
+.oph {
+  display: flex;
+  flex-direction: column;
+  margin: 1em;
+  padding: 0em 1em 0em 1em;
+  width: 100%;
+}
+
+.oph .add {
+  background: #fff;
+  margin: .5em;
+  padding: .50em;
+  width: 100%;
+  border-radius: 30px;
+}
+
+.oph .addi {
+  background: #fff;
+  padding: 1em;
+  width: 100%;
+  border-radius: 20px;
+  height: max-content;
+}
+
+.oph .addi input {
+  width: 60%;
+  border: none;
+  color: #000;
+  height: 50px;
+  outline: none;
+  background: none;
+  font-family: 'Nexa-Bold';
+
+}
+
+.oph .addi a {
+  font-size: .9rem;
+  width: max-content;
+  color: #c83200;
+  cursor: pointer;
+}
+
+.oph .add input {
+  width: 60%;
+  border: none;
+  color: #000;
+  outline: none;
+  background: none;
+  font-family: 'Nexa-Bold';
+
+}
+
+.oph .add a {
+  font-size: .9rem;
+  width: max-content;
+  color: #c83200;
+  cursor: pointer;
+}
+
+.oph .prop {
+  background: #fff;
+  margin: .5em;
+  padding: .50em;
+  width: 100%;
+  border-radius: 30px;
+}
+
+.oph .prop input {
+  width: 60%;
+  border: none;
+  outline: none;
+  background: none;
+  color: #000;
+  font-family: 'Nexa-Bold';
+}
+
+.oph .prop a {
+  font-size: .9rem;
+  width: max-content;
+  color: #c83200;
+  cursor: pointer;
+}
+
+.oph select {
+  padding: .30em;
+  border-radius: 5px;
+  outline: none;
+  background: #fff;
+}
+
+.oph span {
+  color: #000;
+}
+
+.op .img-compress {
+  object-fit: none;
+  width: 20px;
+  margin-top: -2em;
+  position: absolute;
+  cursor: pointer;
+}
+
+.op a {
+  margin-right: -4em;
+}
+
+.op button img {
+  width: 20px;
+  height: 20px;
+}
+
+.op button {
+  width: 100%;
+  border: none;
+  background: #c83200;
+  color: #fff;
+  outline: none;
+  font-size: .80rem;
+  font-family: 'Nexa-Bold';
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+
+a,
+a:hover,
+a:focus {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.navbar {
+  padding: 15px 10px;
+  border: none;
+  border-radius: 0;
+  margin-bottom: 40px;
+}
+
+.navbar img {
+  width: 50%;
+}
+
+.navbar-btn {
+  box-shadow: none;
+  outline: none !important;
+  border: none;
+}
+
+.btn {
+  background: none;
+  outline: none !important;
+}
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+
+.wrapper {
+  display: flex;
+  width: 100%;
+}
+
+footer {
+  width: 100%;
+  background: #000080;
+  color: #fff;
+  display: inline-block;
+}
+
+.low {
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.low .loow {
+  padding: 0.4em;
+}
+
+.low .loow h3 {
+  color: #fff;
+  font-size: 1rem;
+  font-family: "Nexa-Bold";
+}
+
+.low .loow span {
+  color: #fff;
+  font-weight: 800;
+  font-family: "Nexa-Light";
+  opacity: 0.9;
+  font-size: 0.85rem;
+  text-align: justify;
+}
+
+.low .loow p {
+  color: #fff;
+  font-family: "Nexa-Light";
+  font-size: 0.5rem;
+}
+
+.low .loow p a {
+  font-family: "Nexa-Bold";
+  color: #fff;
+  font-size: 0.85rem;
+  text-decoration: none;
+}
+
+.low .loow input {
+  border: none;
+  font-family: "Nexa-Bold";
+  background-color: #eedfe1;
+  border-radius: 5px;
+  margin-right: -1em;
+  width: 50%;
+  padding: 0.6em;
+  outline: none;
+}
+
+.low .loow button {
+  padding: 0.6em;
+  font-family: "Nexa-Bold";
+  border: none;
+  color: #000;
+  outline: none;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.decklow {
+  padding-left: 2em;
+  padding-right: 2em;
+  text-align: center;
+}
+
+.decklow img {
+  padding: 1em;
+}
+
+.decklow p {
+  color: #fff;
+  font-family: "Nexa-Bold";
+}
+
+.decklow hr {
+  background: #fff;
+}
+
+#sidebar {
+  width: 150px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  z-index: 999;
+  background: #ffe1e1;
+  color: #fff;
+  transition: all 0.3s;
+}
+
+#sidebar.active {
+  margin-left: -250px;
+}
+
+#sidebar .sidebar-header {
+  margin-top: 4em;
+  margin-bottom: -2em;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebar-header p {
+  font-family: 'Nexa-Bold';
+  font-size: .70rem;
+  color: #000;
+}
+
+.sidebar-header img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+}
+
+#sidebar ul.components {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+
+}
+
+#sidebar ul p {
+  font-family: 'Nexa-Light';
+  font-weight: 800;
+  color: #000;
+  font-size: .80rem;
+  padding: 10px;
+}
+
+#sidebar ul li a {
+  color: rgb(179, 174, 174);
+  font-family: 'Nexa-Bold';
+  padding: 10px;
+  font-size: .60rem;
+  display: block;
+}
+
+
+#sidebar ul li.active>a,
+a[aria-expanded="true"] {
+  color: #6d7fcc;
+}
+
+a[data-toggle="collapse"] {
+  position: relative;
+}
+
+.dropdown-toggle::after {
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+}
+
+ul ul a {
+  font-size: 0.9em !important;
+  padding-left: 30px !important;
+  background: #6d7fcc;
+}
+
+
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+
+#content {
+  width: calc(calc(100% - 140px));
+  padding: 1.2%;
+  height: 100%;
+  display: inline-block;
+  transition: all 0.3s;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#content.active {
+  width: 100%;
+  /* border-bottom: #000 1px solid; */
+}
+
+#content li {
+  font-family: 'Nexa-Bold';
+  font-size: .80rem;
+}
+
+#content li.active {
+  width: max-content;
+  border-bottom: #000 1px solid;
+}
+
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
+
+@media (max-width: 768px) {
+
+  .row .tre {
+    margin-left: 1em;
+  }
+
+  .opr div {
+    font-size: .60rem;
+  }
+
+  .opr .add {
+    margin: .5em;
+    padding: .50em;
+    width: 100%;
+  }
+
+  .opr .add svg {
+    margin-left: 1em;
+  }
+
+  .opr .prop {
+    margin: 0.2em;
+    padding: .50em;
+    width: 100%;
+  }
+
+
+  .opr .prop svg {
+    margin-left: 1em;
+  }
+
+  .container .tag {
+    width: max-content;
+  }
+
+  .low {
+    padding-left: 2em;
+    padding-right: 2em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .low .loow {
+    padding: 0.4em;
+  }
+
+  .low .loow h3 {
+    font-size: 1rem;
+    font-family: "Nexa-Bold";
+  }
+
+  .low .loow span {
+    font-family: "Nexa-Light";
+    opacity: 0.9;
+    font-weight: 800;
+    font-size: 0.85rem;
+    text-align: justify;
+  }
+
+  .low .loow p {
+    font-family: "Nexa-Light";
+    font-size: 0.5rem;
+  }
+
+  .low .loow p a {
+    font-family: "Nexa-Bold";
+    font-size: 0.85rem;
+    text-decoration: none;
+  }
+
+  .low .loow input {
+    border: none;
+    font-family: "Nexa-Bold";
+    background-color: #eedfe1;
+    border-radius: 5px;
+    margin-right: -1em;
+    width: 50%;
+    padding: 0.6em;
+  }
+
+  .low .loow button {
+    padding: 0.6em;
+    font-family: "Nexa-Bold";
+    border: none;
+    color: #000;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+
+  .decklow {
+    padding-left: 2em;
+    padding-right: 2em;
+    text-align: center;
+  }
+
+  .decklow p {
+    font-family: "Nexa-fution";
+  }
+
+  #sidebar {
+    margin-left: -250px;
+  }
+
+  #sidebar.active {
+    margin-left: 0;
+  }
+
+  #content {
+    width: 100%;
+  }
+
+  #content.active {
+    width: calc(100% - 140px);
+  }
+
+  #content li.active {
+    width: max-content;
+    border-bottom: #000 1px solid;
+  }
+
+  #sidebarCollapse span {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .container .tran .pood {
+    width: 100%;
+  }
+
+  .container .tran {
+    flex-direction: row;
+    width: 70%;
+  }
+
+  .container .ghy {
+    width: 100%;
+  }
+
+  .container .tran .t1 {
+    padding: 10px;
+    width: 100%;
+  }
+
+  .container .tran .t2 {
+    padding: 10px;
+    width: 100%;
+  }
+
+  .container .tran .t3 {
+    padding: 10px;
+    width: 100%;
+  }
+
+  .container .push a {
+    width: max-content;
+  }
+
+  .container .tur button {
+    width: 30%;
+  }
+
+  .modale-content {
+    width: 600px;
+  }
+
+  .modal-content {
+    width: 600px;
+    height: 500px;
+  }
+
+  .row {
+    justify-content: flex-start;
+  }
+
+  .row .tre {
+    margin-left: 1em;
+  }
+
+  .tyr {
+    width: 100%;
+  }
+
+  .opr div {
+    font-size: .60rem;
+  }
+
+  .opr .add {
+    margin: .5em;
+    padding: .50em;
+    width: 80%;
+  }
+
+  .opr .add svg {
+    margin-left: 3em;
+  }
+
+  .opr .prop {
+    margin: .5em;
+    padding: .50em;
+    width: 80%;
+  }
+
+  .opr .prop svg {
+    margin-left: 4em;
+  }
+
+  .container .tag {
+    width: max-content;
+  }
+
+  .low {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+
+  .low .loow {
+    width: 100%;
+    padding: 0.4em;
+  }
+
+  .low .loow .re {
+    text-align: center;
+  }
+
+  .low .loow h3 {
+    font-size: 1rem;
+    font-family: "Nexa-Bold";
+  }
+
+  .low .loow input {
+    margin-right: -1em;
+    width: 60%;
+  }
+
+  .low .loow button {
+    padding: 0.6em;
+    font-family: "Nexa-Bold";
+    border: none;
+    color: #000;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+
+  .low .loow p {
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+}
+
+@media only screen and (min-width: 920px) {
+  .container .ghy {
+    width: 100%;
+  }
+
+  .container .tran .t1 {
+    padding: 10px;
+  }
+
+  .container .tran .t2 {
+    padding: 10px;
+  }
+
+  .container .tran .t3 {
+    padding: 10px;
+  }
+
+  .container .tran {
+    flex-direction: row;
+    width: 75%;
+  }
+
+  .container .push a {
+    width: max-content;
+  }
+
+  .container .tur button {
+    width: 20%;
+  }
+
+  .modal-content {
+    width: 700px;
+  }
+
+  .modale-content {
+    width: 700px;
+  }
+
+
+  .tyr {
+    width: 60%;
+    margin-left: 4em;
+  }
+
+  .ty {
+    width: max-content;
+    margin-left: 4em;
+  }
+
+  .opr div {
+    padding: .30em;
+    font-size: .60rem;
+    margin: .5em;
+  }
+
+  .opr .add {
+    margin: .5em;
+    padding: .50em;
+    width: 100%;
+  }
+
+  .opr .add svg {
+    margin-left: 5em;
+  }
+
+  .opr .prop {
+    margin: .5em;
+    padding: .50em;
+    width: 100%;
+  }
+
+  .opr .prop svg {
+    margin-left: 3em;
+  }
+
+  .container .tag {
+    width: max-content;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .container .tran {
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .container .push a {
+    width: max-content;
+  }
+
+  .navbar-collapse {
+    justify-content: center;
+  }
+
+}
+@media only screen and(min-width: 1200px){
+.container{
+  width: 100%;
+  max-width: 100%;
+}
+}

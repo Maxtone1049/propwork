@@ -1,0 +1,1145 @@
+body {
+  background: #ff90;
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: "Nexa-Light";
+  src: url(../fonts/Commercial/Nexa2/OTF/Nexa-Light.otf);
+}
+@font-face {
+  font-family: "Nexa-Bold";
+  src: url(../fonts/Commercial/Nexa2/OTF/Nexa-Bold.otf);
+}
+.more-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 1em;
+  margin-right: 1em;
+  img{
+      width: 100%;
+      object-fit: contain;
+      height: 11em;
+  }
+  .title{
+    font-family: "Nexa-Bold";
+      font-weight: bold;
+      font-size: 1.5rem;
+  }
+  .desc{
+    font-family: "Nexa-Light";
+    font-weight: 700;
+      line-height: 1.5rem;
+      text-align: justify;
+  }
+}
+.lkjk {
+  background: #f8eff0;
+}
+.contain{
+  margin-top: 3em;
+  margin-bottom: 3em;
+  }
+.features{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3em;
+  padding-bottom: 4em;
+}
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url(../fonts/poppins/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url(../fonts/poppins/Poppins-Bold.ttf);
+}
+.container {
+  h3{
+      font-family: 'Nexa-Light';
+      font-size: 1.5rem;
+      font-weight: 900;
+    }
+    .h3{
+      font-family: 'Poppins-Bold';
+      font-size: 1.4rem;
+      font-weight: 400;
+    }
+    .test{
+      font-family: 'Poppins-Regular';
+font-weight: 500;
+font-size: 1rem;
+text-align: justify;
+line-height: 2.2rem;
+    }
+    p{
+      font-family: 'Nexa-Light';
+font-weight: 700;
+font-size: 1rem;
+text-align: justify;
+line-height: 1.5rem;
+    }
+    span{
+      font-size: .9rem;
+    }
+    .form{
+      margin-top: 1.5em;
+      background: #fff;
+      border-radius: 5px;
+      display: flex;
+      flex-direction: column;
+      padding: 2em;
+      width: 80%;
+      box-shadow: 1px 2px 3px 1px rgb(107, 106, 106);
+      input{
+        background: #c83200;
+        border: none;
+        outline: none;
+        font-size: .9rem;
+        color: #fff;
+        font-family: 'Nexa-Bold';
+        padding: 1em;
+        margin-bottom: 5em;
+        width: 50%;
+      }
+      ::placeholder{
+        color: #fff;
+        font-family: 'Nexa-Bold';
+        
+      }
+      textarea{
+        background: #c83200;
+        border: none;
+        outline: none;
+        font-size: .9rem;
+        color: #fff;
+        font-family: 'Nexa-Bold';
+        padding: 1em;
+        margin-bottom: 1em;
+      }
+      .right{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        button{
+          border: 1px solid #c83200;
+          background: none;
+          color: #c83200;
+          padding: 1em;
+          font-family: 'Nexa-Light';
+          cursor: pointer;
+          font-weight: 900;
+          width: 50%;
+        }
+      }
+    }
+  .row {
+    width: 100%;
+    justify-content: center;
+    margin: 0;
+
+    .col-lg-9 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 1em;
+
+      .features-icons-icon {
+        border-radius: 50%;
+       }
+      h3 {
+        font-size: 1.3rem;
+        font-family: "Nexa-Bold";
+        text-align: center;
+        color: #000080;
+      }
+      p {
+        font-family: "Nexa-Bold";
+        font-size: 0.9rem;
+        text-align: center;
+      }
+    }
+  }
+}
+.opd {
+  background: #000080;
+  }
+.container {
+  h2 {
+    font-family: "Nexa-Bold";
+    color: #fff;
+    text-align: center;
+  }
+  .row {
+    width: 100%;
+    justify-content: center;
+    .col-lg-5 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 1em;
+      .features-icons-icon {
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        background-color: #fff;
+        img {
+          width: 60%;
+          height: 60%;
+        }
+      }
+      h3 {
+        margin-top: 0.7em;
+        font-size: 1rem;
+        font-family: "Nexa-Bold";
+        text-align: center;
+        color: #fff;
+      }
+    }
+  }
+}
+.container {
+  .row {
+    width: 100%;
+    justify-content: center;
+
+    .col-lg-2 {
+      margin: 1em;
+      padding: 1em;
+      background-color: #ffeeef;
+      border-radius: 5%;
+      height: 250px;
+      width: 200px;
+      .features-icons-item {
+        height: 100px;
+        .features-icons-icon {
+          border-radius: 50%;
+          width: 50px;
+          height: 50px;
+          background-color: #fff;
+          margin-bottom: 0.7em;
+          img {
+            width: 40%;
+            height: 40%;
+          }
+        }
+      }
+      h3 {
+        font-size: 1rem;
+        font-family: "Nexa-Bold";
+        text-align: left;
+      }
+      p {
+        font-family: "Nexa-Light";
+        font-size: 0.8rem;
+        text-align: left;
+        display: flex;
+        align-items: baseline;
+
+        a {
+          margin-top: 1em;
+          font-size: 0.6rem;
+          text-decoration: none;
+          border-bottom: #000 3px solid;
+          color: #000;
+          font-family: "Nexa-Bold";
+        }
+      }
+      .di{
+        margin-top: 3.5em;
+      }
+      .dt{
+        margin-top: 2em;
+      }
+      .dr{
+        margin-top: -.8em;
+      }
+      .dsf{
+        margin-top: 3.5em;
+      }
+      &:hover {
+        color: #fff;
+        background: linear-gradient(purple, rgb(41, 44, 211), rgb(41, 44, 211));
+        margin-top: -0.8em;
+        p {
+          font-weight: 900;
+        }
+        a {
+          color: #fff;
+          border-bottom: #fff 3px solid;
+        }
+      }
+    }
+  }
+}
+.open-nav {
+  transform: translateX(0%);
+}
+.bre {
+  background-color: rgb(2, 50, 121);
+  padding-bottom: 3em;
+}
+.grand {
+  background:url("../assest/back.svg"),url("../assest/tyu.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 460px;
+  width: 100%;
+ }
+.bvn {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  font-family: "Nexa-Bold";
+  color: #fff;
+  text-align: center;
+  h1 {
+    font-weight: 800;
+  }
+  h3 {
+    font-weight: 500;
+  }
+  form {
+    display: flex;
+    align-content: space-between;
+    padding: 0.4em;
+    width: 250px;
+    background: #fff;
+    border-radius: 10px;
+    input {
+      font-size: 0.67rem;
+      font-family: "Nexa-Bold";
+      width: 100%;
+      border: none;
+      outline: none;
+      background: none;
+      ::placeholder {
+        opacity: 0.4;
+        font-family: "Nexa-Light";
+      }
+    }
+    button {
+      font-family: "Nexa-Bold";
+      cursor: pointer;
+      align-items: flex-end;
+      padding: 0.5em;
+      font-size: 0.79rem;
+      border-radius: 5px;
+      border: none;
+      width: 30%;
+      background: rgb(2, 50, 121);
+      color: #fff;
+    }
+  }
+ 
+}
+
+header.opi {
+  padding-left: 2em;
+  padding-right: 2em;
+  height: 100px;
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+  .menu {
+    cursor: pointer;
+    margin-top: 0.6em;
+    width: 1em;
+    font-size: 1.8rem;
+    color: #fff;
+  }
+}
+nav {
+  position: fixed;
+  right: 0;
+  top: 0;
+  background: #fff;
+  width: 35%;
+  opacity: 0.9;
+  height: 100vh;
+  z-index: 999;
+  transform: translateX(100%);
+  transition: transform 0.5s ease-in-out;
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 7em;
+    font-size: 0.8rem;
+
+    a {
+      font-family: "Nexa-Bold";
+      text-decoration: none;
+      color: blue;
+      font-size: 0.8rem;
+      opacity: 1;
+      padding: 0.7em 2em;
+      display: block;
+      width: 100%;
+      font-weight: 400;
+      &:hover {
+        background: gray;
+      }
+    }
+  }
+  .wds {
+    margin-top: -0.5em;
+    a {
+      &:hover {
+        background: gray;
+      }
+    }
+    a.special {
+      margin-left: 0.45em;
+      background-color: rgb(12, 3, 133);
+      border-radius: 5px;
+      padding: 0.75em 2em;
+      color: #fff;
+      font-weight: 500;
+      text-align: center;
+      width: max-content;
+img{
+  width: 1em;
+}
+    }
+  }
+
+  .close {
+    float: right;
+    margin: 1em;
+    font-size: 2.5rem;
+    cursor: pointer;
+  }
+}
+
+.spare {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .bn {
+    width: 100%;
+    text-align: left;
+  }
+  h2 {
+    text-align: left;
+    font-size: 2rem;
+    margin-left: 0.6em;
+    color: #fff;
+    text-align: left;
+    font-family: "Nexa-Bold";
+  }
+
+  form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    label {
+      margin-bottom: 0.4em;
+      font-family: "Nexa-Bold";
+      color: #fff;
+    }
+    .forme{
+      background:none ;
+      border-bottom:1px solid #fff;
+      color:#fff;
+    }
+    input {
+      font-size: 0.7rem;
+      font-family: "Nexa-Bold";
+      border-radius: 5px;
+      border: none;
+      padding: 1.5em;
+      width: 100%;
+      height: 15px;
+      outline: none;
+      margin-bottom: 2em;
+      ::placeholder {
+        font-family: "Nexa-Light";
+        opacity: 0.5;
+      }
+    }
+
+    button {
+      color: #fff;
+      background-color: rgb(202, 133, 5);
+      padding: 0.5em;
+      border-radius: 10px;
+      font-family: "Nexa-Bold";
+      border: none;
+      width: 50%;
+    }
+    p {
+      color: #fff;
+      font-family: "Nexa-Bold";
+      span {
+        a {
+          color: #ffa500;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  .textfeild {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    p {
+      font-family: "Nexa-Bold";
+      text-align: center;
+      color: #fff;
+    }
+    .icons {
+      display: flex;
+      border: #fff 1px solid;
+      justify-content: center;
+      text-align: center;
+      border-radius: 10px;
+      a {
+        color: #fff;
+        i {
+          font-size: 1.5rem;
+          margin: 0.35em;
+        }
+      }
+    }
+  }
+  .imgle {
+    margin-left: 1em;
+    display: flex;
+    justify-content: center;
+    width: 25%;
+    img {
+      z-index: 111;
+      width: 95%;
+      animation: moveImage 1s alternate-reverse infinite;
+    }
+  }
+}
+
+.low {
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 1em;
+  display: flex;
+  flex-direction: column;
+
+  .loow {
+    padding: 0.4em;
+
+    h3 {
+      font-size: 1rem;
+      font-family: "Nexa-Bold";
+    }
+    span {
+      font-family: "Nexa-Light";
+      opacity: 0.4;
+      font-size: 0.85rem;
+      text-align: justify;
+    }
+    p {
+      font-family: "Nexa-Light";
+      font-size: 0.5rem;
+      a {
+        font-family: "Nexa-Bold";
+        color: #000;
+        font-size: 0.85rem;
+        text-decoration: none;
+      }
+    }
+
+    input {
+      border: none;
+      font-family: "Nexa-Bold";
+      background-color: rgb(238, 223, 225);
+      border-radius: 5px;
+      margin-right: -1em;
+      width: 50%;
+      padding: 0.6em;
+      outline: none;
+    }
+    button {
+      padding: 0.6em;
+      font-family: "Nexa-Bold";
+      border: none;
+      color: #fff;
+      border-radius: 5px;
+      background-color: rgb(2, 50, 121);
+    }
+  }
+}
+.decklow {
+  padding-left: 2em;
+  padding-right: 2em;
+  text-align: center;
+  i {
+    padding: 1em;
+    text-decoration: none;
+    color: #000080;
+  }
+  p {
+    font-family: "Nexa-Bold";
+    font-weight: 700;
+    }
+}
+
+@media only screen and (min-width: 680px) {
+  body {
+    margin: 0;
+  }
+  .bvn {
+    form {
+      width: 550px;
+      button {
+        font-size: 0.85rem;
+        border: none;
+        width: 40%;
+      }
+    }
+   
+  }
+  h2 {
+    font-size: 3rem;
+    margin-left: 1.6em;
+    width: auto;
+    color: #fff;
+    text-align: left;
+    font-family: "Nexa-Bold";
+  }
+  .spare {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .bn {
+        text-align: center;
+        label {
+          margin-bottom: 0.4em;
+          font-family: "Nexa-Bold";
+          color: #fff;
+        }
+      }
+      input {
+        border-radius: 5px;
+        border: none;
+        width: 80%;
+        height: 10px;
+        margin-bottom: 2em;
+        ::placeholder {
+          opacity: 0.5;
+          font-family: "Nexa-Light";
+        }
+      }
+      button {
+        background-color: rgb(202, 133, 5);
+        padding: 0.5em;
+        border-radius: 10px;
+        font-family: "Nexa-Bold";
+        border: none;
+        width: 50%;
+      }
+      p {
+        color: #fff;
+        font-family: "Nexa-Bold";
+        span {
+          a {
+            color: orange;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+    .textfeild {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      p {
+        font-family: "Nexa-Bold";
+        text-align: center;
+        color: #fff;
+      }
+      .icons {
+        display: flex;
+        border: #fff 1px solid;
+        justify-content: center;
+        text-align: center;
+        border-radius: 10px;
+        a {
+          color: #fff;
+          i {
+            font-size: 1.5rem;
+            margin: 0.4em;
+          }
+        }
+      }
+    }
+    .imgle {
+      display: flex;
+      width: 40%;
+      justify-content: center;
+      img {
+        z-index: 111;
+        width: 55%;
+      }
+    }
+  }
+  .low {
+    padding-left: 2em;
+    padding-right: 2em;
+    display: flex;
+    flex-direction: column;
+    .loow {
+      padding: 0.4em;
+      h3 {
+        font-size: 1rem;
+        font-family: "Nexa-Bold";
+      }
+      span {
+        font-family: "Nexa-Light";
+        opacity: 0.4;
+        font-size: 0.85rem;
+        text-align: justify;
+      }
+      p {
+        font-family: "Nexa-Light";
+        font-size: 0.5rem;
+        a {
+          font-family: "Nexa-Bold";
+          color: #000;
+          font-size: 0.85rem;
+          text-decoration: none;
+        }
+      }
+
+      input {
+        border: none;
+        font-family: "Nexa-Bold";
+        background-color: rgb(238, 223, 225);
+        border-radius: 5px;
+        margin-right: -1em;
+        width: 50%;
+        padding: 0.6em;
+      }
+      button {
+        padding: 0.6em;
+        font-family: "Nexa-Bold";
+        border: none;
+        color: #fff;
+        border-radius: 5px;
+        background-color: rgb(2, 50, 121);
+      }
+    }
+  }
+  .decklow {
+    padding-left: 2em;
+    padding-right: 2em;
+    text-align: center;
+    i {
+      padding: 1em;
+      text-decoration: none;
+      color: blue;
+    }
+    p {
+      font-family: "Nexa-Bold";
+    }
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .opi {
+    .menu {
+      display: none;
+    }
+  }
+  h2 {
+    margin-left: 1.5em;
+  }
+  nav {
+    margin-right: 8em;
+    transform: translateX(0);
+    position: unset;
+    display: flex;
+    width: auto;
+    height: auto;
+    background: none;
+    .first {
+      ul {
+        display: flex;
+        justify-items: center;
+        margin: 0;
+
+        a {
+          color: #fff;
+          padding: 0;
+          margin-left: 1.2em;
+          font-size: 0.9rem;
+          &:hover {
+            background: none;
+          }
+        }
+        .active {
+          width: auto;
+          border-bottom: #fff solid 1px;
+          padding-bottom: 1em;
+        }
+      }
+      .wds {
+        margin-left: 5em;
+        a {
+          &:hover {
+            background: none;
+          }
+        }
+        a.special {
+          background-color: #fff;
+          border-radius: 5px;
+          padding: 0.34em;
+          color: rgb(12, 3, 133);
+          text-align: center;
+          width: 6em;
+          &:hover {
+            background: #fff;
+          }
+        }
+      }
+    }
+    .close {
+      display: none;
+    }
+  }
+
+  .spare {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h2 {
+      font-size: 2.5rem;
+      color: #fff;
+      text-align: left;
+      font-family: "Nexa-Bold";
+    }
+
+    form {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      label {
+        font-family: "Nexa-Bold";
+        color: #fff;
+      }
+      input {
+        ::placeholder {
+          opacity: 0.5;
+        }
+      }
+
+      button {
+        padding: 0.5em;
+        border-radius: 10px;
+        width: 40%;
+        cursor: pointer;
+      }
+    }
+    .textfeild {
+      width: 40%;
+      p {
+        font-family: "Nexa-Bold";
+        text-align: center;
+        color: #fff;
+      }
+      .icons {
+        a {
+          color: #fff;
+          i {
+            font-size: 1.5rem;
+            margin: 0.45em;
+          }
+        }
+      }
+    }
+    .imgle {
+      display: flex;
+      justify-content: center;
+      width: 50%;
+      img {
+        z-index: 111;
+        width: 60%;
+      }
+    }
+  }
+  .low {
+    flex-direction: row;
+    .loow {
+      width: 100%;
+      padding: 0.4em;
+      .re {
+        text-align: center;
+      }
+      h3 {
+        font-size: 1rem;
+        font-family: "Nexa-Bold";
+      }
+      input {
+        margin-right: -1em;
+        width: 60%;
+      }
+      button {
+        padding: 0.6em;
+        font-family: "Nexa-Bold";
+        border: none;
+        color: #fff;
+        border-radius: 5px;
+        background-color: rgb(2, 50, 121);
+      }
+      p {
+        font-size: 0.9rem;
+        font-weight: 500;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 920px) {
+  .bvn {
+    form {
+      width: 600px;
+      button {
+        font-size: 0.85rem;
+        border: none;
+        width: 40%;
+        cursor: pointer;
+      }
+    }
+  }
+  .feature {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 4em;
+    margin-bottom: 3em;
+
+    img{
+        width: 25em;
+    }
+
+    .content{
+        text-align: right;
+        width: 25em;
+    }
+}
+
+.feature.left {
+    grid-template-areas:
+    "left right";
+
+    img {
+        grid-area: left;
+    }
+
+    .content{
+        text-align: left;
+        width: 25em;
+        justify-self: left;
+    }
+}
+  nav {
+    margin-right: 10em;
+    transform: translateX(0);
+    position: unset;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    background: none;
+
+    .close {
+      display: none;
+    }
+
+    .first {
+      ul {
+        margin-left: 20em;
+        display: flex;
+        margin: 0;
+
+        a {
+          color: #fff;
+          padding: 0.1em 0.1em;
+          font-size: 0.9rem;
+
+          &:hover {
+            background: none;
+          }
+        }
+      }
+
+      .wds {
+        margin-left: 3em;
+
+        a {
+          &:hover {
+            background: none;
+          }
+        }
+        a.special {
+          background-color: #fff;
+          border-radius: 5px;
+          padding: 0.34em;
+          color: rgb(12, 3, 133);
+          text-align: center;
+          width: 6em;
+
+          &:hover {
+            background: #fff;
+          }
+        }
+      }
+    }
+  }
+  .spare {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h2 {
+      font-size: 2.5rem;
+      color: #fff;
+      text-align: left;
+      font-family: "Nexa-Bold";
+    }
+
+    form {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      label {
+        font-family: "Nexa-Bold";
+        color: #fff;
+      }
+      input {
+        ::placeholder {
+          opacity: 0.5;
+        }
+      }
+
+      button {
+        padding: 0.5em;
+        border-radius: 10px;
+        width: 40%;
+        cursor: pointer;
+      }
+    }
+    .textfeild {
+      width: 40%;
+      p {
+        font-family: "Nexa-Bold";
+        text-align: center;
+        color: #fff;
+      }
+      .icons {
+        a {
+          color: #fff;
+          i {
+            font-size: 1.5rem;
+            margin: 0.55em;
+          }
+        }
+      }
+    }
+    .imgle {
+      display: flex;
+      justify-content: center;
+      width: 50%;
+      img {
+        z-index: 111;
+        width: 50%;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .feature{
+    gap:20em;
+}
+  .spare {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h2 {
+      font-size: 2.5rem;
+      color: #fff;
+      text-align: left;
+      font-family: "Nexa-Bold";
+    }
+
+    form {
+      width: 100%;
+      display: flex;
+      input {
+        ::placeholder {
+          opacity: 0.5;
+        }
+      }
+
+      button {
+        padding: 0.5em;
+        border-radius: 10px;
+        width: 30%;
+        cursor: pointer;
+      }
+    }
+    .textfeild {
+      width: 40%;
+      p {
+        font-family: "Nexa-Bold";
+        text-align: center;
+        color: #fff;
+      }
+      .icons {
+        a {
+          color: #fff;
+          i {
+            font-size: 1.5rem;
+            margin: 0.8em;
+          }
+        }
+      }
+    }
+    .imgle {
+      display: flex;
+      justify-content: center;
+      width: 60%;
+      img {
+        z-index: 111;
+        width: 50%;
+      }
+    }
+  }
+}
+
+@keyframes moveImage {
+  from {
+    transform: translateY(-30px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}

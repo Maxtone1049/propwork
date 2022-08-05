@@ -1,0 +1,1474 @@
+body {
+  background: #ff90;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Nexa-Light";
+  src: url(../fonts/Commercial/Nexa2/OTF/Nexa-Light.otf);
+}
+
+@font-face {
+  font-family: "Nexa-Bold";
+  src: url(../fonts/Commercial/Nexa2/OTF/Nexa-Bold.otf);
+}
+
+.more-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.more-info img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 11em;
+}
+
+.more-info .title {
+  font-family: "Nexa-Bold";
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.more-info .desc {
+  font-family: "Nexa-Light";
+  font-weight: 700;
+  line-height: 1.5rem;
+  text-align: justify;
+}
+
+.lkjk {
+  background: #f8eff0;
+}
+
+.contain {
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+.features {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 3em;
+  padding-bottom: 4em;
+}
+
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url(../fonts/poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url(../fonts/poppins/Poppins-Bold.ttf);
+}
+
+.container h3 {
+  font-family: 'Nexa-Light';
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.container .h3 {
+  font-family: 'Poppins-Bold';
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.container .test {
+  font-family: 'Poppins-Regular';
+  font-weight: 500;
+  font-size: 1rem;
+  text-align: justify;
+  line-height: 2.2rem;
+}
+
+.container p {
+  font-family: 'Nexa-Light';
+  font-weight: 700;
+  font-size: 1rem;
+  text-align: justify;
+  line-height: 1.5rem;
+}
+
+.container span {
+  font-size: .9rem;
+}
+
+.container .form {
+  margin-top: 1.5em;
+  background: #fff;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 2em;
+  width: 80%;
+  -webkit-box-shadow: 1px 2px 3px 1px #6b6a6a;
+          box-shadow: 1px 2px 3px 1px #6b6a6a;
+}
+
+.container .form input {
+  background: #c83200;
+  border: none;
+  outline: none;
+  font-size: .9rem;
+  color: #fff;
+  font-family: 'Nexa-Bold';
+  padding: 1em;
+  margin-bottom: 5em;
+  width: 50%;
+}
+
+.container .form ::-webkit-input-placeholder {
+  color: #fff;
+  font-family: 'Nexa-Bold';
+}
+
+.container .form :-ms-input-placeholder {
+  color: #fff;
+  font-family: 'Nexa-Bold';
+}
+
+.container .form ::-ms-input-placeholder {
+  color: #fff;
+  font-family: 'Nexa-Bold';
+}
+
+.container .form ::placeholder {
+  color: #fff;
+  font-family: 'Nexa-Bold';
+}
+
+.container .form textarea {
+  background: #c83200;
+  border: none;
+  outline: none;
+  font-size: .9rem;
+  color: #fff;
+  font-family: 'Nexa-Bold';
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+.container .form .right {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.container .form .right button {
+  border: 1px solid #c83200;
+  background: none;
+  color: #c83200;
+  padding: 1em;
+  font-family: 'Nexa-Light';
+  cursor: pointer;
+  font-weight: 900;
+  width: 50%;
+}
+
+.container .row {
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0;
+}
+
+.container .row .col-lg-9 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 1em;
+}
+
+.container .row .col-lg-9 .features-icons-icon {
+  border-radius: 50%;
+}
+
+.container .row .col-lg-9 h3 {
+  font-size: 1.3rem;
+  font-family: "Nexa-Bold";
+  text-align: center;
+  color: #000080;
+}
+
+.container .row .col-lg-9 p {
+  font-family: "Nexa-Bold";
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.opd {
+  background: #000080;
+}
+
+.container h2 {
+  font-family: "Nexa-Bold";
+  color: #fff;
+  text-align: center;
+}
+
+.container .row {
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .row .col-lg-5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 1em;
+}
+
+.container .row .col-lg-5 .features-icons-icon {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background-color: #fff;
+}
+
+.container .row .col-lg-5 .features-icons-icon img {
+  width: 60%;
+  height: 60%;
+}
+
+.container .row .col-lg-5 h3 {
+  margin-top: 0.7em;
+  font-size: 1rem;
+  font-family: "Nexa-Bold";
+  text-align: center;
+  color: #fff;
+}
+
+.container .row {
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .row .col-lg-2 {
+  margin: 1em;
+  padding: 1em;
+  background-color: #ffeeef;
+  border-radius: 5%;
+  height: 250px;
+  width: 200px;
+}
+
+.container .row .col-lg-2 .features-icons-item {
+  height: 100px;
+}
+
+.container .row .col-lg-2 .features-icons-item .features-icons-icon {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  margin-bottom: 0.7em;
+}
+
+.container .row .col-lg-2 .features-icons-item .features-icons-icon img {
+  width: 40%;
+  height: 40%;
+}
+
+.container .row .col-lg-2 h3 {
+  font-size: 1rem;
+  font-family: "Nexa-Bold";
+  text-align: left;
+}
+
+.container .row .col-lg-2 p {
+  font-family: "Nexa-Light";
+  font-size: 0.8rem;
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.container .row .col-lg-2 p a {
+  margin-top: 1em;
+  font-size: 0.6rem;
+  text-decoration: none;
+  border-bottom: #000 3px solid;
+  color: #000;
+  font-family: "Nexa-Bold";
+}
+
+.container .row .col-lg-2 .di {
+  margin-top: 3.5em;
+}
+
+.container .row .col-lg-2 .dt {
+  margin-top: 2em;
+}
+
+.container .row .col-lg-2 .dr {
+  margin-top: -.8em;
+}
+
+.container .row .col-lg-2 .dsf {
+  margin-top: 3.5em;
+}
+
+.container .row .col-lg-2:hover {
+  color: #fff;
+  background: -webkit-gradient(linear, left top, left bottom, from(purple), color-stop(#292cd3), to(#292cd3));
+  background: linear-gradient(purple, #292cd3, #292cd3);
+  margin-top: -0.8em;
+}
+
+.container .row .col-lg-2:hover p {
+  font-weight: 900;
+}
+
+.container .row .col-lg-2:hover a {
+  color: #fff;
+  border-bottom: #fff 3px solid;
+}
+
+.open-nav {
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
+}
+
+.bre {
+  background-color: #023279;
+  padding-bottom: 3em;
+}
+
+.grand {
+  background: url("../assest/back.svg"), url("../assest/tyu.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 460px;
+  width: 100%;
+}
+
+.bvn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  font-family: "Nexa-Bold";
+  color: #fff;
+  text-align: center;
+}
+
+.bvn h1 {
+  font-weight: 800;
+}
+
+.bvn h3 {
+  font-weight: 500;
+}
+
+.bvn form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  padding: 0.4em;
+  width: 250px;
+  background: #fff;
+  border-radius: 10px;
+}
+
+.bvn form input {
+  font-size: 0.67rem;
+  font-family: "Nexa-Bold";
+  width: 100%;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.bvn form input ::-webkit-input-placeholder {
+  opacity: 0.4;
+  font-family: "Nexa-Light";
+}
+
+.bvn form input :-ms-input-placeholder {
+  opacity: 0.4;
+  font-family: "Nexa-Light";
+}
+
+.bvn form input ::-ms-input-placeholder {
+  opacity: 0.4;
+  font-family: "Nexa-Light";
+}
+
+.bvn form input ::placeholder {
+  opacity: 0.4;
+  font-family: "Nexa-Light";
+}
+
+.bvn form button {
+  font-family: "Nexa-Bold";
+  cursor: pointer;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding: 0.5em;
+  font-size: 0.79rem;
+  border-radius: 5px;
+  border: none;
+  width: 30%;
+  background: #023279;
+  color: #fff;
+}
+
+header.opi {
+  padding-left: 2em;
+  padding-right: 2em;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header.opi .menu {
+  cursor: pointer;
+  margin-top: 0.6em;
+  width: 1em;
+  font-size: 1.8rem;
+  color: #fff;
+}
+
+nav {
+  position: fixed;
+  right: 0;
+  top: 0;
+  background: #fff;
+  width: 35%;
+  opacity: 0.9;
+  height: 100vh;
+  z-index: 999;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  transition: -webkit-transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 7em;
+  font-size: 0.8rem;
+}
+
+nav ul a {
+  font-family: "Nexa-Bold";
+  text-decoration: none;
+  color: blue;
+  font-size: 0.8rem;
+  opacity: 1;
+  padding: 0.7em 2em;
+  display: block;
+  width: 100%;
+  font-weight: 400;
+}
+
+nav ul a:hover {
+  background: gray;
+}
+
+nav .wds {
+  margin-top: -0.5em;
+}
+
+nav .wds a:hover {
+  background: gray;
+}
+
+nav .wds a.special {
+  margin-left: 0.45em;
+  background-color: #0c0385;
+  border-radius: 5px;
+  padding: 0.75em 2em;
+  color: #fff;
+  font-weight: 500;
+  text-align: center;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+nav .wds a.special img {
+  width: 1em;
+}
+
+nav .close {
+  float: right;
+  margin: 1em;
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+
+.spare {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.spare .bn {
+  width: 100%;
+  text-align: left;
+}
+
+.spare h2 {
+  text-align: left;
+  font-size: 2rem;
+  margin-left: 0.6em;
+  color: #fff;
+  text-align: left;
+  font-family: "Nexa-Bold";
+}
+
+.spare form {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.spare form label {
+  margin-bottom: 0.4em;
+  font-family: "Nexa-Bold";
+  color: #fff;
+}
+
+.spare form .forme {
+  background: none;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+}
+
+.spare form input {
+  font-size: 0.7rem;
+  font-family: "Nexa-Bold";
+  border-radius: 5px;
+  border: none;
+  padding: 1.5em;
+  width: 100%;
+  height: 15px;
+  outline: none;
+  margin-bottom: 2em;
+}
+
+.spare form input ::-webkit-input-placeholder {
+  font-family: "Nexa-Light";
+  opacity: 0.5;
+}
+
+.spare form input :-ms-input-placeholder {
+  font-family: "Nexa-Light";
+  opacity: 0.5;
+}
+
+.spare form input ::-ms-input-placeholder {
+  font-family: "Nexa-Light";
+  opacity: 0.5;
+}
+
+.spare form input ::placeholder {
+  font-family: "Nexa-Light";
+  opacity: 0.5;
+}
+
+.spare form button {
+  color: #fff;
+  background-color: #ca8505;
+  padding: 0.5em;
+  border-radius: 10px;
+  font-family: "Nexa-Bold";
+  border: none;
+  width: 50%;
+}
+
+.spare form p {
+  color: #fff;
+  font-family: "Nexa-Bold";
+}
+
+.spare form p span a {
+  color: #ffa500;
+  text-decoration: none;
+}
+
+.spare .textfeild {
+  padding: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.spare .textfeild p {
+  font-family: "Nexa-Bold";
+  text-align: center;
+  color: #fff;
+}
+
+.spare .textfeild .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: #fff 1px solid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.spare .textfeild .icons a {
+  color: #fff;
+}
+
+.spare .textfeild .icons a i {
+  font-size: 1.5rem;
+  margin: 0.35em;
+}
+
+.spare .imgle {
+  margin-left: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 25%;
+}
+
+.spare .imgle img {
+  z-index: 111;
+  width: 95%;
+  animation: moveImage 1s alternate-reverse infinite;
+}
+
+.low {
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.low .loow {
+  padding: 0.4em;
+}
+
+.low .loow h3 {
+  font-size: 1rem;
+  font-family: "Nexa-Bold";
+}
+
+.low .loow span {
+  font-family: "Nexa-Light";
+  opacity: 0.4;
+  font-size: 0.85rem;
+  text-align: justify;
+}
+
+.low .loow p {
+  font-family: "Nexa-Light";
+  font-size: 0.5rem;
+}
+
+.low .loow p a {
+  font-family: "Nexa-Bold";
+  color: #000;
+  font-size: 0.85rem;
+  text-decoration: none;
+}
+
+.low .loow input {
+  border: none;
+  font-family: "Nexa-Bold";
+  background-color: #eedfe1;
+  border-radius: 5px;
+  margin-right: -1em;
+  width: 50%;
+  padding: 0.6em;
+  outline: none;
+}
+
+.low .loow button {
+  padding: 0.6em;
+  font-family: "Nexa-Bold";
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  background-color: #023279;
+}
+
+.decklow {
+  padding-left: 2em;
+  padding-right: 2em;
+  text-align: center;
+}
+
+.decklow i {
+  padding: 1em;
+  text-decoration: none;
+  color: #000080;
+}
+
+.decklow p {
+  font-family: "Nexa-Bold";
+  font-weight: 700;
+}
+
+@media only screen and (min-width: 680px) {
+  body {
+    margin: 0;
+  }
+  .bvn form {
+    width: 550px;
+  }
+  .bvn form button {
+    font-size: 0.85rem;
+    border: none;
+    width: 40%;
+  }
+  h2 {
+    font-size: 3rem;
+    margin-left: 1.6em;
+    width: auto;
+    color: #fff;
+    text-align: left;
+    font-family: "Nexa-Bold";
+  }
+  .spare {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .spare form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .spare form .bn {
+    text-align: center;
+  }
+  .spare form .bn label {
+    margin-bottom: 0.4em;
+    font-family: "Nexa-Bold";
+    color: #fff;
+  }
+  .spare form input {
+    border-radius: 5px;
+    border: none;
+    width: 80%;
+    height: 10px;
+    margin-bottom: 2em;
+  }
+  .spare form input ::-webkit-input-placeholder {
+    opacity: 0.5;
+    font-family: "Nexa-Light";
+  }
+  .spare form input :-ms-input-placeholder {
+    opacity: 0.5;
+    font-family: "Nexa-Light";
+  }
+  .spare form input ::-ms-input-placeholder {
+    opacity: 0.5;
+    font-family: "Nexa-Light";
+  }
+  .spare form input ::placeholder {
+    opacity: 0.5;
+    font-family: "Nexa-Light";
+  }
+  .spare form button {
+    background-color: #ca8505;
+    padding: 0.5em;
+    border-radius: 10px;
+    font-family: "Nexa-Bold";
+    border: none;
+    width: 50%;
+  }
+  .spare form p {
+    color: #fff;
+    font-family: "Nexa-Bold";
+  }
+  .spare form p span a {
+    color: orange;
+    text-decoration: none;
+  }
+  .spare .textfeild {
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .spare .textfeild p {
+    font-family: "Nexa-Bold";
+    text-align: center;
+    color: #fff;
+  }
+  .spare .textfeild .icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border: #fff 1px solid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+  }
+  .spare .textfeild .icons a {
+    color: #fff;
+  }
+  .spare .textfeild .icons a i {
+    font-size: 1.5rem;
+    margin: 0.4em;
+  }
+  .spare .imgle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 40%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .spare .imgle img {
+    z-index: 111;
+    width: 55%;
+  }
+  .low {
+    padding-left: 2em;
+    padding-right: 2em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .low .loow {
+    padding: 0.4em;
+  }
+  .low .loow h3 {
+    font-size: 1rem;
+    font-family: "Nexa-Bold";
+  }
+  .low .loow span {
+    font-family: "Nexa-Light";
+    opacity: 0.4;
+    font-size: 0.85rem;
+    text-align: justify;
+  }
+  .low .loow p {
+    font-family: "Nexa-Light";
+    font-size: 0.5rem;
+  }
+  .low .loow p a {
+    font-family: "Nexa-Bold";
+    color: #000;
+    font-size: 0.85rem;
+    text-decoration: none;
+  }
+  .low .loow input {
+    border: none;
+    font-family: "Nexa-Bold";
+    background-color: #eedfe1;
+    border-radius: 5px;
+    margin-right: -1em;
+    width: 50%;
+    padding: 0.6em;
+  }
+  .low .loow button {
+    padding: 0.6em;
+    font-family: "Nexa-Bold";
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #023279;
+  }
+  .decklow {
+    padding-left: 2em;
+    padding-right: 2em;
+    text-align: center;
+  }
+  .decklow i {
+    padding: 1em;
+    text-decoration: none;
+    color: blue;
+  }
+  .decklow p {
+    font-family: "Nexa-Bold";
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .opi .menu {
+    display: none;
+  }
+  h2 {
+    margin-left: 1.5em;
+  }
+  nav {
+    margin-right: 8em;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    position: unset;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: auto;
+    height: auto;
+    background: none;
+  }
+  nav .first ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-items: center;
+    margin: 0;
+  }
+  nav .first ul a {
+    color: #fff;
+    padding: 0;
+    margin-left: 1.2em;
+    font-size: 0.9rem;
+  }
+  nav .first ul a:hover {
+    background: none;
+  }
+  nav .first ul .active {
+    width: auto;
+    border-bottom: #fff solid 1px;
+    padding-bottom: 1em;
+  }
+  nav .first .wds {
+    margin-left: 5em;
+  }
+  nav .first .wds a:hover {
+    background: none;
+  }
+  nav .first .wds a.special {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 0.34em;
+    color: #0c0385;
+    text-align: center;
+    width: 6em;
+  }
+  nav .first .wds a.special:hover {
+    background: #fff;
+  }
+  nav .close {
+    display: none;
+  }
+  .spare {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .spare h2 {
+    font-size: 2.5rem;
+    color: #fff;
+    text-align: left;
+    font-family: "Nexa-Bold";
+  }
+  .spare form {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .spare form label {
+    font-family: "Nexa-Bold";
+    color: #fff;
+  }
+  .spare form input ::-webkit-input-placeholder {
+    opacity: 0.5;
+  }
+  .spare form input :-ms-input-placeholder {
+    opacity: 0.5;
+  }
+  .spare form input ::-ms-input-placeholder {
+    opacity: 0.5;
+  }
+  .spare form input ::placeholder {
+    opacity: 0.5;
+  }
+  .spare form button {
+    padding: 0.5em;
+    border-radius: 10px;
+    width: 40%;
+    cursor: pointer;
+  }
+  .spare .textfeild {
+    width: 40%;
+  }
+  .spare .textfeild p {
+    font-family: "Nexa-Bold";
+    text-align: center;
+    color: #fff;
+  }
+  .spare .textfeild .icons a {
+    color: #fff;
+  }
+  .spare .textfeild .icons a i {
+    font-size: 1.5rem;
+    margin: 0.45em;
+  }
+  .spare .imgle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 50%;
+  }
+  .spare .imgle img {
+    z-index: 111;
+    width: 60%;
+  }
+  .low {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .low .loow {
+    width: 100%;
+    padding: 0.4em;
+  }
+  .low .loow .re {
+    text-align: center;
+  }
+  .low .loow h3 {
+    font-size: 1rem;
+    font-family: "Nexa-Bold";
+  }
+  .low .loow input {
+    margin-right: -1em;
+    width: 60%;
+  }
+  .low .loow button {
+    padding: 0.6em;
+    font-family: "Nexa-Bold";
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #023279;
+  }
+  .low .loow p {
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+}
+
+@media only screen and (min-width: 920px) {
+  .bvn form {
+    width: 600px;
+  }
+  .bvn form button {
+    font-size: 0.85rem;
+    border: none;
+    width: 40%;
+    cursor: pointer;
+  }
+  .feature {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (auto)[2];
+        grid-template-columns: repeat(2, auto);
+    gap: 4em;
+    margin-bottom: 3em;
+  }
+  .feature img {
+    width: 25em;
+  }
+  .feature .content {
+    text-align: right;
+    width: 25em;
+  }
+  .feature.left {
+        grid-template-areas: "left right";
+  }
+  .feature.left img {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: left;
+  }
+  .feature.left .content {
+    text-align: left;
+    width: 25em;
+    -ms-grid-column-align: left;
+        justify-self: left;
+  }
+  nav {
+    margin-right: 10em;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    position: unset;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: auto;
+    height: auto;
+    background: none;
+  }
+  nav .close {
+    display: none;
+  }
+  nav .first ul {
+    margin-left: 20em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0;
+  }
+  nav .first ul a {
+    color: #fff;
+    padding: 0.1em 0.1em;
+    font-size: 0.9rem;
+  }
+  nav .first ul a:hover {
+    background: none;
+  }
+  nav .first .wds {
+    margin-left: 3em;
+  }
+  nav .first .wds a:hover {
+    background: none;
+  }
+  nav .first .wds a.special {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 0.34em;
+    color: #0c0385;
+    text-align: center;
+    width: 6em;
+  }
+  nav .first .wds a.special:hover {
+    background: #fff;
+  }
+  .spare {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .spare h2 {
+    font-size: 2.5rem;
+    color: #fff;
+    text-align: left;
+    font-family: "Nexa-Bold";
+  }
+  .spare form {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .spare form label {
+    font-family: "Nexa-Bold";
+    color: #fff;
+  }
+  .spare form input ::-webkit-input-placeholder {
+    opacity: 0.5;
+  }
+  .spare form input :-ms-input-placeholder {
+    opacity: 0.5;
+  }
+  .spare form input ::-ms-input-placeholder {
+    opacity: 0.5;
+  }
+  .spare form input ::placeholder {
+    opacity: 0.5;
+  }
+  .spare form button {
+    padding: 0.5em;
+    border-radius: 10px;
+    width: 40%;
+    cursor: pointer;
+  }
+  .spare .textfeild {
+    width: 40%;
+  }
+  .spare .textfeild p {
+    font-family: "Nexa-Bold";
+    text-align: center;
+    color: #fff;
+  }
+  .spare .textfeild .icons a {
+    color: #fff;
+  }
+  .spare .textfeild .icons a i {
+    font-size: 1.5rem;
+    margin: 0.55em;
+  }
+  .spare .imgle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 50%;
+  }
+  .spare .imgle img {
+    z-index: 111;
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .feature {
+    gap: 20em;
+  }
+  .spare {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .spare h2 {
+    font-size: 2.5rem;
+    color: #fff;
+    text-align: left;
+    font-family: "Nexa-Bold";
+  }
+  .spare form {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .spare form input ::-webkit-input-placeholder {
+    opacity: 0.5;
+  }
+  .spare form input :-ms-input-placeholder {
+    opacity: 0.5;
+  }
+  .spare form input ::-ms-input-placeholder {
+    opacity: 0.5;
+  }
+  .spare form input ::placeholder {
+    opacity: 0.5;
+  }
+  .spare form button {
+    padding: 0.5em;
+    border-radius: 10px;
+    width: 30%;
+    cursor: pointer;
+  }
+  .spare .textfeild {
+    width: 40%;
+  }
+  .spare .textfeild p {
+    font-family: "Nexa-Bold";
+    text-align: center;
+    color: #fff;
+  }
+  .spare .textfeild .icons a {
+    color: #fff;
+  }
+  .spare .textfeild .icons a i {
+    font-size: 1.5rem;
+    margin: 0.8em;
+  }
+  .spare .imgle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 60%;
+  }
+  .spare .imgle img {
+    z-index: 111;
+    width: 50%;
+  }
+}
+
+@-webkit-keyframes moveImage {
+  from {
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+  }
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes moveImage {
+  from {
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+  }
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,364 @@
+.frame {
+  width: 95%;
+  min-width: 360px;
+  max-width: 1000px;
+  height: 92vh;
+  min-height: 300px;
+  max-height: 720px;
+  background: #fff;
+  margin-bottom: 3em;
+  padding: 1em;
+  border-radius: 2%;
+}
+
+.frame .content {
+  float: right;
+  width: 60%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.frame .content .message-input {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  z-index: 99;
+}
+
+.frame .content .message-input .wrap {
+  position: relative;
+  border-top: 1px solid #000;
+  padding-top: .6em;
+}
+
+.frame .content .message-input .wrap button {
+  outline: none;
+  float: right;
+  border: none;
+  width: 60px;
+  padding: 12px 0;
+  cursor: pointer;
+  background: #000080;
+  color: #f5f5f5;
+  border-radius: 20px;
+}
+
+.frame .content .message-input .wrap input {
+  font-family: 'Nexa-Bold';
+  float: left;
+  border: none;
+  width: calc(100% - 90px);
+  padding: 11px 32px 10px 8px;
+  font-size: 0.8em;
+  color: #32465a;
+  background: #ffe1e1;
+  border-radius: 50px;
+  outline: none;
+}
+
+.frame .content .message-input .wrap .attachment {
+  position: absolute;
+  right: 65px;
+  z-index: 4;
+  margin-top: 10px;
+  font-size: 1.1em;
+  color: #000;
+  font-weight: 800;
+  opacity: .5;
+  cursor: pointer;
+}
+
+.frame .content .contact-profile {
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background: #c83200;
+}
+
+.frame .content .contact-profile img {
+  width: 40px;
+  border-radius: 50%;
+  float: left;
+  margin: 9px 12px 0 9px;
+}
+
+.frame .content .contact-profile p {
+  color: #fff;
+  float: left;
+}
+
+.frame .content .messages {
+  width: 100%;
+  height: auto;
+  min-height: calc(100% - 93px);
+  max-height: calc(100% - 93px);
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.frame .content .messages ::-webkit-scrollbar {
+  width: 8px;
+  background: transparent;
+}
+
+.frame .content .messages ::-webkit-scrollbar-thumb {
+  background-color: rgba(233, 59, 59, 0.3);
+}
+
+.frame .content .messages ul {
+  list-style: none;
+  display: inline-block;
+  clear: both;
+  float: left;
+  margin: 15px 15px 5px 15px;
+  width: calc(100% - 25px);
+  font-size: 0.9em;
+}
+
+.frame .content .messages ul img {
+  width: 22px;
+  border-radius: 50%;
+  float: left;
+}
+
+.frame .content .messages ul p {
+  display: inline-block;
+  padding: 10px 15px;
+  border-radius: 20px;
+  max-width: 205px;
+  line-height: 130%;
+}
+
+.frame .content .messages ul .sent img {
+  margin: 6px 8px 0 0;
+}
+
+.frame .content .messages ul .sent p {
+  background: #ffe1e1;
+  font-family: "Nexa-Bold";
+  border-radius: 40px;
+  padding: 1em;
+  font-size: 0.9rem;
+  color: #000;
+}
+
+.frame .content .messages ul .replies img {
+  float: right;
+  margin: 6px 0 0 8px;
+}
+
+.frame .content .messages ul .replies p {
+  background: #c83200;
+  font-family: "Nexa-Bold";
+  font-size: 0.9rem;
+  color: #fff;
+  border-radius: 40px;
+  padding: 1em;
+  float: right;
+}
+
+.frame .sidepanel {
+  float: left;
+  min-width: 280px;
+  max-width: 340px;
+  width: 40%;
+  height: 100%;
+  background: #fff;
+  color: #000;
+  overflow: hidden;
+  position: relative;
+}
+
+.frame .sidepanel .contacts {
+  height: calc(100% - 177px);
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.frame .sidepanel .contacts ul {
+  list-style: none;
+  padding: 0;
+}
+
+.frame .sidepanel .contacts .contact {
+  border-bottom: 1px solid #000;
+  position: relative;
+  padding: 10px 0 15px 0;
+  font-family: "Nexa-Bold";
+  font-size: 0.9em;
+  cursor: pointer;
+}
+
+.frame .sidepanel .contacts .contact .wrap {
+  width: 88%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.frame .sidepanel .contacts .contact .wrap span {
+  position: absolute;
+  left: 0;
+  margin: -2px 0 0 -2px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid #2c3e50;
+  background: #95a5a6;
+}
+
+.frame .sidepanel .contacts .contact .wrap span.online {
+  background: #2ecc71;
+}
+
+.frame .sidepanel .contacts .contact .wrap span.away {
+  background: #f1c40f;
+}
+
+.frame .sidepanel .contacts .contact .wrap span.busy {
+  background: #e74c3c;
+}
+
+.frame .sidepanel .contacts .contact .wrap img {
+  width: 40px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 10px;
+}
+
+.frame .sidepanel .contacts .contact .wrap .meta {
+  padding: 5px 0 0 0;
+}
+
+.frame .sidepanel .contacts .contact .wrap .meta .name {
+  font-weight: 600;
+}
+
+.frame .sidepanel .contacts .contact .wrap .meta .preview {
+  margin: 5px 0 0 0;
+  padding: 0 0 1px;
+  font-weight: 400;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-transition: 1s all ease;
+  transition: 1s all ease;
+}
+
+.frame .sidepanel .contacts .contact .wrap .meta .preview span {
+  position: initial;
+  border-radius: initial;
+  background: none;
+  border: none;
+  padding: 0 2px 0 0;
+  margin: 0 0 0 1px;
+  opacity: 0.5;
+}
+
+.frame .sidepanel .contacts .contact span.contact-status {
+  border: 2px solid #32465a !important;
+}
+
+.frame .sidepanel .contacts .active {
+  background: #c83200;
+  border-right: 5px solid #c83200;
+  color: #fff;
+  font-family: "Nexa-Bold";
+}
+
+.frame .sidepanel ::-webkit-scrollbar {
+  width: 8px;
+  background: #2c3e50;
+}
+
+.frame .sidepanel ::-webkit-scrollbar ::-webkit-scrollbar-thumb {
+  background-color: #243140;
+}
+
+@media screen and (max-width: 360px) {
+  .frame {
+    width: 100%;
+    height: 100vh;
+  }
+  .frame .sidepanel {
+    width: 40%;
+    min-width: 58px;
+  }
+}
+
+@media screen and (max-width: 735px) {
+  .frame .content {
+    width: 60%;
+    min-width: 250px !important;
+  }
+  .frame .content .message-input .wrap button {
+    padding: 16px 0;
+    outline: none;
+  }
+  .frame .content .message-input .wrap input {
+    padding: 15px 32px 16px 8px;
+    outline: none;
+  }
+  .frame .content .message-input .wrap input :focus {
+    outline: none;
+  }
+  .frame .content .message-input .wrap .attachment {
+    margin-top: 17px;
+    right: 65px;
+  }
+  .frame .content .messages {
+    max-height: calc(100% - 105px);
+  }
+  .frame .content .messages ul p {
+    max-width: 300px;
+  }
+  .frame .sidepanel {
+    width: 25%;
+    min-width: 58px;
+  }
+  .frame .sidepanel .contacts {
+    height: calc(100% - 149px);
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+  .frame .sidepanel .contacts ::-webkit-scrollbar {
+    display: none;
+  }
+  .frame .sidepanel .contact {
+    font-family: "Nexa-Bold";
+    padding: 6px 0 46px 8px;
+  }
+  .frame .sidepanel .contact .wrap {
+    width: 100%;
+  }
+  .frame .sidepanel .contact .wrap img {
+    margin-right: 0px;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .frame .content {
+    width: 60%;
+  }
+  .frame .sidepanel {
+    width: 30%;
+    min-width: 58px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .frame .content {
+    width: 50%;
+  }
+  .frame .sidepanel {
+    width: 20%;
+    min-width: 58px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .frame .content {
+    width: 80%;
+  }
+}
+/*# sourceMappingURL=chats.css.map */
